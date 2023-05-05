@@ -1,0 +1,176 @@
+body {
+	background-color: #04081B;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #04081B;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 48px;
+	margin: 0;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+.navbar-container {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto; /* Center the container horizontally */
+	display: flex; /* Use flexbox */
+	justify-content: center; /* Center the navbar horizontally */
+  }
+
+nav {
+	border-radius: 5px;
+	display: flex;
+	background-color: rgba(255, 255, 255, 0.1);
+	padding: 10px;
+	position: fixed;
+	z-index: 1;
+	box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+}
+
+nav a {
+	display: inline-block;
+	padding: 10px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+	margin: 0 10px;
+	transition: all 0.3s ease;
+}
+
+nav a:hover {
+	background-color: rgba(255, 255, 255, 0.1);
+	color: #00FFD1;
+}
+
+section {
+	padding: 50px 20px;
+	margin: 20px;
+	background-color: rgba(255, 255, 255, 0.1);
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+}
+
+h2 {
+	font-size: 36px;
+	margin-top: 0;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+p {
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+a {
+	color: #00FFD1;
+	text-decoration: none;
+	transition: all 0.3s ease;
+}
+
+a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+footer {
+	background-color: rgba(255, 255, 255, 0.1);
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	font-size: 14px;
+	margin-top: 50px;
+}
+
+@media screen and (min-width: 768px) {
+	header {
+		padding: 50px;
+	}
+
+	h1 {
+		font-size: 72px;
+	}
+
+	nav {
+		padding: 0;
+		display: inline-block;
+		position: relative;
+		transform: none;
+	}
+
+	nav a {
+		padding: 20px;
+		font-size: 24px;
+		margin: 0 20px;
+	}
+
+	section {
+		padding: 100px;
+		margin: 50px;
+	}
+
+	h2 {
+		font-size: 48px;
+	}
+
+	p {
+		font-size: 24px;
+	}
+
+	footer {
+		padding: 50px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	header {
+		padding: 100px;
+	}
+
+	h1 {
+		font-size: 96px;
+	}
+
+	nav a {
+		padding: 30px;
+		font-size: 36px;
+		margin: 0 30px;
+	}
+
+	section {
+		padding: 150px;
+		margin: 100px;
+	}
+
+	h2 {
+		font-size: 72px;
+	}
+
+	p {
+		font-size: 30px;
+	}
+
+	footer {
+		padding: 50px;
+	}
+}
